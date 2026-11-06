@@ -2,15 +2,13 @@
 
 ![CI](https://github.com/ivyhongzhan/msc-qualitative-analysis-toolkit/actions/workflows/test.yml/badge.svg)
 
-A **2026 Python companion analysis tool** for transparent coding checks, distributed with a fully synthetic example. **This is not the original code for the 2023 dissertation**: the dissertation used NVivo-assisted thematic analysis, and this repository does not contain its interviews, coded dataset, or original analysis files. It does not reproduce dissertation findings.
+A **2026 Python tool** that validates codebooks and coded segments, then generates descriptive summaries and platform-by-theme tables. It uses only the Python standard library and includes a fully fictional example.
 
-A small, dependency-free Python workflow for **codebook validation, coded-segment summaries, platform-by-theme tables, and transparent qualitative-data quality checks**.
+## Research context
 
-**Related research:** Hong Zhan, MSc Social Media and Management, University of York (2023): *Differences between the Use of Social Media by Chinese Students in the UK and Their Home Country's Mainstream Media Culture*.
+For my **2023 MSc dissertation at the University of York**, I designed and conducted **15 semi-structured interviews** with Chinese students in the UK. I transcribed and translated the materials and used NVivo for thematic analysis. The study examined cross-platform communication, information credibility, and cultural belonging.
 
-## Research context and scope
-
-The dissertation examined how Chinese students studying in the UK navigate social media, information credibility, communication and cultural belonging. The research involved **15 semi-structured interviews**, transcription and translation, and NVivo-assisted thematic analysis. This separately prepared 2026 tool provides a small, inspectable workflow for structured coding metadata. It is a methods companion and teaching/audit aid, not a claim about what was run for the thesis or a reanalysis of the original interviews.
+The dissertation was titled *Differences between the Use of Social Media by Chinese Students in the UK and Their Home Country's Mainstream Media Culture*. This later tool checks structured coding metadata; it is not the dissertation's original code and does not reproduce its findings. Original interviews, coded data, and analysis files are not distributed here.
 
 ## Input data
 
@@ -80,18 +78,12 @@ tests/                               standard-library unittest suite
 
 **Quality controls.** Reject mismatched headers, empty fields, duplicate code assignments, unknown codes, conflicting platform tags within a segment, and additional free-text columns. Source-file SHA-256 hashes make a specific run auditable.
 
-## Interpretation and privacy boundaries
+## Interpretation and privacy
 
-This is a 2026 methods companion for checking structured coding metadata. Counts help detect inconsistent annotations and inspect coverage; they do not determine a theme's importance. Qualitative interpretation requires context, attention to contrasting accounts and a documented analytic argument. A rare theme may be analytically important, and frequent coding does not establish prevalence or significance. Co-occurrence is not a test of association or agreement. No sentiment analysis, topic model or significance test is performed.
+Counts help inspect coding consistency and coverage; they do not determine a theme's importance or establish population prevalence. Qualitative interpretation still requires context and contrasting accounts. Co-occurrence is not a test of association or coder agreement. The tool performs no sentiment analysis, topic modeling, or significance tests.
 
-ID-token validation is a format check, **not anonymization**. A real name can satisfy the token pattern, and combinations of platform tags or coding metadata may identify someone indirectly. Codebook themes and definitions accept text. The tool neither detects all personal information nor certifies safe disclosure; review inputs and outputs before any sharing. Only the supplied fictional examples are intended for public demonstration.
+ID-token validation checks format, **not anonymity**: a real name may pass the pattern, and coding metadata can identify someone indirectly. Codebook themes and definitions also accept text. Review real inputs and outputs before sharing; the tool does not detect all personal information or certify safe disclosure.
 
-## Research relevance
+Only fictional examples are included. Keep participant interviews, transcripts, quotations, contact information, and private NVivo projects out of public repositories unless disclosure is appropriately authorized and reviewed.
 
-- **HCI / social computing:** qualitative coding and situated cross-platform interaction.
-- **Information Science:** information credibility, platform context, and interpretive transparency.
-- **Computational Social Science:** explicit unit definitions, multi-label counting and auditable descriptive summaries.
-
-**Data ethics:** Only fictional coded rows are distributed in this repository. Do not publish identifiable interviews, transcripts, quotes, contact information, private NVivo projects or real participant matrices without an appropriate disclosure and ethics review.
-
-For the research context and limits of the surviving dissertation record, see [the MSc academic case study](https://ivyhongzhan.github.io/Ivyhongzhan/research/masters/).
+For the dissertation research, see [the MSc academic case study](https://ivyhongzhan.github.io/Ivyhongzhan/research/masters/).
