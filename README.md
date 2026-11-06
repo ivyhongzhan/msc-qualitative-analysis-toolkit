@@ -80,6 +80,12 @@ tests/                               standard-library unittest suite
 
 **Quality controls.** Reject mismatched headers, empty fields, duplicate code assignments, unknown codes, conflicting platform tags within a segment, and additional free-text columns. Source-file SHA-256 hashes make a specific run auditable.
 
+## Interpretation and privacy boundaries
+
+This is a 2026 methods companion for checking structured coding metadata. Counts help detect inconsistent annotations and inspect coverage; they do not determine a theme's importance. Qualitative interpretation requires context, attention to contrasting accounts and a documented analytic argument. A rare theme may be analytically important, and frequent coding does not establish prevalence or significance. Co-occurrence is not a test of association or agreement. No sentiment analysis, topic model or significance test is performed.
+
+ID-token validation is a format check, **not anonymization**. A real name can satisfy the token pattern, and combinations of platform tags or coding metadata may identify someone indirectly. Codebook themes and definitions accept text. The tool neither detects all personal information nor certifies safe disclosure; review inputs and outputs before any sharing. Only the supplied fictional examples are intended for public demonstration.
+
 ## Research relevance
 
 - **HCI / social computing:** qualitative coding and situated cross-platform interaction.
@@ -88,4 +94,4 @@ tests/                               standard-library unittest suite
 
 **Data ethics:** Only fictional coded rows are distributed in this repository. Do not publish identifiable interviews, transcripts, quotes, contact information, private NVivo projects or real participant matrices without an appropriate disclosure and ethics review.
 
-For the full dissertation research narrative, see [the MSc academic case study](https://ivyhongzhan.github.io/Ivyhongzhan/research/masters/).
+For the research context and limits of the surviving dissertation record, see [the MSc academic case study](https://ivyhongzhan.github.io/Ivyhongzhan/research/masters/).

@@ -45,6 +45,8 @@
 - The platform field tags coded segments; it is not a measure of platform usage.
 - Co-occurrence means two themes were assigned to the same coded segment, not statistical association.
 - Descriptive tables are not causal estimates, population prevalence, or intercoder agreement.
+- Counts support coding checks; theme importance requires contextual qualitative interpretation.
+- ID validation checks format only; it does not anonymize data or certify safe disclosure.
 
 ## SHA-256 inputs
 
