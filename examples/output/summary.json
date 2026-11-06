@@ -1,0 +1,220 @@
+{
+  "dataset_label": "Synthetic example",
+  "inputs": {
+    "codebook_sha256": "ddd0abab293eff9ee2ed09a4bd2abe5341d8469f8dd6400c454df0e065b73353",
+    "coded_segments_sha256": "ac5763f821b3fa5287bff9064eae1f298a8feffd08acdacd29b5dd6c1b95e3fb"
+  },
+  "denominators": {
+    "distinct_interviews": 4,
+    "distinct_segments": 8,
+    "code_assignments": 10,
+    "codebook_codes": 4
+  },
+  "themes": [
+    {
+      "theme": "Cross-platform communication",
+      "distinct_interviews": 3,
+      "distinct_segments": 3
+    },
+    {
+      "theme": "Information credibility",
+      "distinct_interviews": 3,
+      "distinct_segments": 3
+    },
+    {
+      "theme": "Language and participation",
+      "distinct_interviews": 2,
+      "distinct_segments": 2
+    },
+    {
+      "theme": "Platform norms and controls",
+      "distinct_interviews": 2,
+      "distinct_segments": 2
+    }
+  ],
+  "codes": [
+    {
+      "code_id": "C01",
+      "theme": "Cross-platform communication",
+      "distinct_segments": 3
+    },
+    {
+      "code_id": "C02",
+      "theme": "Language and participation",
+      "distinct_segments": 2
+    },
+    {
+      "code_id": "C03",
+      "theme": "Information credibility",
+      "distinct_segments": 3
+    },
+    {
+      "code_id": "C04",
+      "theme": "Platform norms and controls",
+      "distinct_segments": 2
+    }
+  ],
+  "platform_tags": [
+    {
+      "platform": "Multiple",
+      "distinct_segments": 1
+    },
+    {
+      "platform": "Twitter",
+      "distinct_segments": 2
+    },
+    {
+      "platform": "Unspecified",
+      "distinct_segments": 1
+    },
+    {
+      "platform": "WeChat",
+      "distinct_segments": 2
+    },
+    {
+      "platform": "Weibo",
+      "distinct_segments": 2
+    }
+  ],
+  "platform_by_theme": [
+    {
+      "platform": "Multiple",
+      "theme": "Cross-platform communication",
+      "distinct_segments": 1
+    },
+    {
+      "platform": "Multiple",
+      "theme": "Information credibility",
+      "distinct_segments": 1
+    },
+    {
+      "platform": "Multiple",
+      "theme": "Language and participation",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "Multiple",
+      "theme": "Platform norms and controls",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "Twitter",
+      "theme": "Cross-platform communication",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "Twitter",
+      "theme": "Information credibility",
+      "distinct_segments": 1
+    },
+    {
+      "platform": "Twitter",
+      "theme": "Language and participation",
+      "distinct_segments": 2
+    },
+    {
+      "platform": "Twitter",
+      "theme": "Platform norms and controls",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "Unspecified",
+      "theme": "Cross-platform communication",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "Unspecified",
+      "theme": "Information credibility",
+      "distinct_segments": 1
+    },
+    {
+      "platform": "Unspecified",
+      "theme": "Language and participation",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "Unspecified",
+      "theme": "Platform norms and controls",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "WeChat",
+      "theme": "Cross-platform communication",
+      "distinct_segments": 2
+    },
+    {
+      "platform": "WeChat",
+      "theme": "Information credibility",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "WeChat",
+      "theme": "Language and participation",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "WeChat",
+      "theme": "Platform norms and controls",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "Weibo",
+      "theme": "Cross-platform communication",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "Weibo",
+      "theme": "Information credibility",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "Weibo",
+      "theme": "Language and participation",
+      "distinct_segments": 0
+    },
+    {
+      "platform": "Weibo",
+      "theme": "Platform norms and controls",
+      "distinct_segments": 2
+    }
+  ],
+  "theme_cooccurrence": [
+    {
+      "theme_a": "Cross-platform communication",
+      "theme_b": "Information credibility",
+      "distinct_segments": 1
+    },
+    {
+      "theme_a": "Cross-platform communication",
+      "theme_b": "Language and participation",
+      "distinct_segments": 0
+    },
+    {
+      "theme_a": "Cross-platform communication",
+      "theme_b": "Platform norms and controls",
+      "distinct_segments": 0
+    },
+    {
+      "theme_a": "Information credibility",
+      "theme_b": "Language and participation",
+      "distinct_segments": 1
+    },
+    {
+      "theme_a": "Information credibility",
+      "theme_b": "Platform norms and controls",
+      "distinct_segments": 0
+    },
+    {
+      "theme_a": "Language and participation",
+      "theme_b": "Platform norms and controls",
+      "distinct_segments": 0
+    }
+  ],
+  "interpretation_notes": [
+    "The interview, segment, and assignment denominators are different units.",
+    "A segment may have several codes or themes; theme totals are not additive.",
+    "The platform field tags coded segments; it is not a measure of platform usage.",
+    "Co-occurrence means two themes were assigned to the same coded segment, not statistical association.",
+    "Descriptive tables are not causal estimates, population prevalence, or intercoder agreement."
+  ]
+}

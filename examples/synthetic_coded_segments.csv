@@ -1,0 +1,11 @@
+interview_id,segment_id,platform,code_id
+SYN01,SEG01,WeChat,C01
+SYN01,SEG02,Twitter,C02
+SYN01,SEG02,Twitter,C03
+SYN02,SEG01,Weibo,C04
+SYN02,SEG02,Multiple,C01
+SYN02,SEG02,Multiple,C03
+SYN03,SEG01,Twitter,C02
+SYN03,SEG02,Unspecified,C03
+SYN04,SEG01,WeChat,C01
+SYN04,SEG02,Weibo,C04
